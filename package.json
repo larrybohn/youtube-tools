@@ -1,0 +1,22 @@
+{
+  "name": "youtube-tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larrybohn/youtube-tools.git"
+  },
+  "author": "Larry Bohn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/larrybohn/youtube-tools/issues"
+  },
+  "homepage": "https://github.com/larrybohn/youtube-tools#readme",
+  "dependencies": {
+    "ytdl-core": "^0.14.2"
+  }
+}

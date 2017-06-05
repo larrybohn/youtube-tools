@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>youtube-tools proof of concept</title>
+    <link rel="stylesheet" href="poc.css">    
+  </head>
+  <body>
+    <input type="text" id="video-id"/>
+    <button id="go-button">GO</button>
+
+    <div id="container">
+    	<div id="player">
+    	</div>
+    	<div>
+    		<input type="text" id="playback-rate"/>
+    		<button id="action-button">set rate</button>
+    	</div>
+
+    	<video controls id="video">
+	    	<source src="https://r4---sn-f5f7lnel.googlevideo.com/videoplayback?ip=178.124.194.82&pl=24&mime=video%2Fmp4&expire=1496703618&dur=227.300&mv=m&source=youtube&ms=au&mn=sn-f5f7lnel&mm=31&ipbits=0&key=yt6&ei=IY41Wb6DPaad8gSu0ZTgBA&id=o-ADDXmOb8BTvuurNAdCWp49IlHOxC66eyW81hF3avQzmz&initcwndbps=866250&sparams=dur%2Cei%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cpl%2Cratebypass%2Crequiressl%2Csource%2Cexpire&requiressl=yes&mt=1496681917&itag=22&lmt=1472103535681919&beids=%5B9466593%5D&ratebypass=yes&signature=878218827C3A62C7858F1F78E4A97A5F9FA683AD.BA23C5A561D3D144C0CB69FC7469C990CA0FD28E">
+    	</video>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js">
+    </script>
+    <script src="poc.js"></script>
+  </body>
+</html>
